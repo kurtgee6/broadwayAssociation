@@ -7,7 +7,29 @@
     padding: 15px;
 }
 
+/* navbar design */
 ul.nav {
     border: 1px solid black;
+    background-color: #970203;
     padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+.mainContent {
+    height: 800px;
+}
+
+.leftContent, .rightContent {
+    padding: 80px;
+}
+
+.leftContent:hover {
+    background-color: silver;
+}
+
+.rightContent:hover {
+    background-color: lightblue;
 }
