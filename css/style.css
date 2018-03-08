@@ -1,4 +1,13 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 .eventsBar {
     background-color: black;
     padding: 15px;
+}
+
+ul.nav {
+    border: 1px solid black;
+    padding: 20px;
 }
