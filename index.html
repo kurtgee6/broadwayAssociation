@@ -93,7 +93,7 @@
           <a class="nav-link" href="#">About Us</a>
         </li>
         <li class="nav-item">
-            <img style="height: 60px; width: 60px;" src="images/logo.png" alt="Logo">
+            <img style="height: 50px; width: 50px;" src="images/logo.png" alt="Logo">
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">History</a>
@@ -107,14 +107,21 @@
       </ul>
 
     <!-- main content -->
-    <div class="row" style="text-align:center;">
+    <div class="row mainContent" style="text-align:center;">
 
             <!-- Broadway Association Side-->
             <div class="col-md-6 leftContent">
                 <div class="showhim">
                      <h3>Broadway Merchants Association</h3>
-                    <div class="showme">hello</div>
-                    <div class="ok">ok</div>
+                    <div class="showme">
+                        <div style="padding-top: 20px;">
+                            <p class="wordC">About The BID</p>
+                            <p class="wordC">NOHO Voice</p>
+                            <p class="wordC">Real Estate</p>
+                            <p class="wordC">Sponsorship</p>
+                            <p class="wordC">Contact</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -122,20 +129,63 @@
               <div class="col-md-6 rightContent">
                 <div class="showhim"> 
                     <h3>The Neighborhood</h3>
-                    <div class="showme">hello</div>
-                    <div class="ok">ok</div>
+                    <div class="showme">
+                        <div style="padding-top: 20px;">
+                            <p class="wordC">SHOPPING</p>
+                            <p class="wordC">DINING</p>
+                            <p class="wordC">ARTS & CULTURE</p>
+                            <p class="wordC">HEALTH & FITNESS</p>
+                            <p class="wordC">HOTELS</p>
+                        </div>
+                    </div>
                 </div> 
             </div>
         </div>
+        
+        <div class="row" style="padding: 25px;">
+            <div class="col-md-3">
+                <img src="images/1.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/2.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/3.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/4.png" alt="..." class="img-thumbnail">
+            </div>
+        </div>
+
+        <div class="row" style="padding: 25px;">
+            <div class="col-md-3">
+                <img src="images/5.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/6.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/7.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/8.png" alt="..." class="img-thumbnail">
+            </div>
+        </div>
+
+        <div id="map"></div>
 
 		  
 		  <!-- JQUERY source-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <!-- Popper JS -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>     
-     <!-- Bootstrap Js -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>     
+    <!-- Bootstrap Js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
     <!-- JavaScript source -->
     <script src="javascript/main.js"></script>
+    <!-- Google Maps API -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEVGKBflxCgfFckMV1bFbh14ACb2wQlxw&callback=initMap">
+    </script>
 </body>
 </html>
