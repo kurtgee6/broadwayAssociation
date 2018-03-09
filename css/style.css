@@ -73,3 +73,13 @@ a {
 .rightContent:hover {
     background-color: lightblue;
 }
+
+ .showme{ 
+   display: none;
+ }
+ .showhim:hover .showme{
+   display : block;
+ }
+ .showhim:hover .ok{
+   display : none;
+ }
