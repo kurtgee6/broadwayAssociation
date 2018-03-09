@@ -83,3 +83,32 @@ a {
  .showhim:hover .ok{
    display : none;
  }
+
+.name{
+	padding-left: 400px;
+}
+
+.submitbtn{
+	position: fixed;
+	margin-bottom: 30px;
+	margin-left: 1051px;
+}
+
+.footer{
+	margin-top:  1090px;
+	height: 150px;
+}
+.container1{
+	margin-left:  488px;
+	margin-top: 30px;
+	
+	}
+.Copyright{
+	position: fixed;
+	padding-left: 10px;
+
+}
+
+
+
+
