@@ -59,7 +59,7 @@ a {
 }
 
 .mainContent {
-    height: 800px;
+    height: 600px;
 }
 
 .leftContent, .rightContent {
@@ -77,18 +77,16 @@ a {
 
 .rightContent:hover {
     background-color: rgba(228, 228, 228, 0.716);
+
     transition: all 0.8s ease;
     color: black;
 }
 
- .showme{ 
+ .showme { 
    display: none;
  }
  .showhim:hover .showme{
    display : block;
- }
- .showhim:hover .ok{
-   display : none;
  }
 
  #map {
