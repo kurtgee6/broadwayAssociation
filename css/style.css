@@ -62,6 +62,10 @@ a {
     height: 600px;
 }
 
+h3 {
+    padding: 30px 10px;
+}
+
 .leftContent, .rightContent {
     height: 600px;
     background-color: black;
@@ -87,6 +91,10 @@ a {
  }
  .showhim:hover .showme{
    display : block;
+ }
+
+ .wordC:hover {
+     color: lightblue;
  }
 
  #map {
