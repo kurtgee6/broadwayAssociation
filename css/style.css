@@ -109,12 +109,18 @@ h3 {
 	padding: 70px 0;
 	
 }
-.text1blog{
+.textBlog{
 	padding: 30px;
 }
-.text2blog{
-	padding: 30px;
+
+.blogText {
+color: lightblue;
 }
-.text3blog{
-	padding: 30px;
+
+.instaCont {
+    padding: 30px;
+}
+
+.blogCont {
+    padding: 40px;
 }
