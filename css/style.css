@@ -54,8 +54,10 @@ h3 {
     padding: 30px 10px;
 }
 .leftContent, .rightContent {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center center;
     height: 600px;
-    background-color: black;
     padding: 80px;
     color: white;
 }
