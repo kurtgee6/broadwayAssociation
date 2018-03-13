@@ -46,6 +46,10 @@ ul.nav {
     padding: 15px;
 }
 a {
+    color: #ffbe42;
+    font-size: 18px;
+}
+a:hover {
     color: white;
 }
 
@@ -53,6 +57,37 @@ a {
     border: 1px solid #236e96;
 }
 
+.slideIn {
+    position: relative;
+    left: 20px;
+    -webkit-animation: slideIn 2s forwards;
+    -moz-animation: slideIn 2s forwards;
+    animation: slideIn 2s forwards;
+  }
+  @-webkit-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 .mainContent {
     height: 600px;
     background-image: url("../images/13.png");
@@ -109,6 +144,8 @@ h3 {
  }
  .showhim:hover .showme{
    display : block;
+   background-color: rgba(0, 0, 0, .4);
+   border-radius: 10%;
  }
  .wordC:hover {
      color: lightblue;
